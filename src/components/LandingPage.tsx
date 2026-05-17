@@ -377,10 +377,11 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><Link to="/" className="hover:text-white">Home</Link></li>
-                <li><Link to="/founders" className="hover:text-white">Founders</Link></li>
+              <li><Link to="/" className="hover:text-white">Home</Link></li>
+                <li><Link to="/presentation-maker" className="hover:text-white">Presentation Maker</Link></li>
+                <li><Link to="/founders" className="hover:text-white">Founder</Link></li>
                 <li><Link to="/blog" className="hover:text-white">Blog</Link></li>
-                <li><Link to="/new" className="hover:text-white">New Tools</Link></li>
+                <li><Link to="/new" className="hover:text-white">Tools</Link></li>
               </ul>
             </div>
             <div>
@@ -395,8 +396,7 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>contact@coderesite.com</li>
-                <li>+91 79920 89454</li>
+                <li>shubhitamishra@gmail.com</li>
                 <li>India</li>
               </ul>
             </div>
